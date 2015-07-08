@@ -1,0 +1,46 @@
+{
+ "sections": [
+  {
+   "id": "af10a0bc-a8f1-a9c6-458e-e5b95ea0a7f3",
+   "title": "Recap",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Recap-af10.md"
+  },
+  {
+   "id": "b672bf30-78d1-4467-af7f-356332d250ec",
+   "title": "What we'll learn",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/What-we-ll-learn-b672.md"
+  },
+  {
+   "id": "104ce54e-dfff-38a7-3f62-17b2ebecedec",
+   "title": "Moving files",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Moving-files-104c.md"
+  },
+  {
+   "id": "d77488c0-7dc6-54b3-7984-6605559459a9",
+   "title": "Moving directories",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Moving-directories-d774.md"
+  },
+  {
+   "id": "76618567-9cd3-395d-3f1b-8f6279782902",
+   "title": "More effective FS navigation",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-5-7661.md"
+  }
+ ],
+ "theme": "charcoal",
+ "scripts": []
+}
