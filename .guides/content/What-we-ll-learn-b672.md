@@ -8,4 +8,4 @@ By the end of this unit you will learn:
 - Explore file content using the CLI
 - Tab autocompletion
 - Clear your terminal window
-
+- Running multiple commands with the pipe syntax

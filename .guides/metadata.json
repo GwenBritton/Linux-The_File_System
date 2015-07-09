@@ -33,12 +33,20 @@
    "content-file": ".guides/content/Moving-directories-d774.md"
   },
   {
+   "id": "d40437a4-facc-9af6-1eb3-4d8ca29af81",
+   "title": "The pipe character",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-6-d404.md"
+  },
+  {
    "id": "76618567-9cd3-395d-3f1b-8f6279782902",
    "title": "More effective FS navigation",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-5-7661.md"
+   "content-file": ".guides/content/More-effective-FS-navigation-7661.md"
   }
  ],
  "theme": "charcoal",

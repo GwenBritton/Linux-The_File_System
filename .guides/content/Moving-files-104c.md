@@ -1,6 +1,6 @@
 ## Simplifying things
 
-We realized that our current web project directory structure is to complex for just a simple static website.
+We realized that our current web project directory structure is too complex for just a simple static website.
 
 We might need to move the `css/styles.css` file to the `~/workspace` directory.
 
@@ -13,14 +13,9 @@ mv css/styles.css ~/workspace
 |||definition
 ### Command: `mv <source> <destination>`
 __Definition:__
-The `mv` command moves each file or directory named by a __source__ argument to a destination directory named by the __directory__ argument.
+The `mv` command moves each file or directory named by a __source__ argument to a __destination__ directory named by the directory argument.
 
 |||
-
-```
-codio ~/workspace $ ls
-assets  css  index.html  styles.css
-```
 
 Remove the empty _css/_ directory as it is no longer required, and list your `~/workspace` directory to confirm that the _styles.css_ file has been moved:
 
