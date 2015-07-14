@@ -1,4 +1,4 @@
-## Simplifying things
+## Simplifying our web project structure
 
 We realized that our current web project directory structure is too complex for just a simple static website.
 
@@ -11,9 +11,14 @@ mv css/styles.css ~/workspace
 ```
 
 |||definition
-### Command: `mv <source> <destination>`
+### Command: 
+```
+mv <source> <destination>
+```
 __Definition:__
 The `mv` command moves each file or directory named by a __source__ argument to a __destination__ directory named by the destination directory argument.
+
+__NOTE:__ This command can only perform one operation at a time. Meaning that it can only move one file or directory per input.
 
 |||
 

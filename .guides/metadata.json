@@ -44,12 +44,28 @@
    "content-file": ".guides/content/Moving-files-104c.md"
   },
   {
+   "id": "21d354ad-b9a4-b3c3-c2dc-13fcb3e4a977",
+   "title": "Shortcut: Tab autocompletion",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Shortcut--Tab-autocompletion-21d3.md"
+  },
+  {
    "id": "d77488c0-7dc6-54b3-7984-6605559459a9",
    "title": "Moving directories",
    "files": [],
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Moving-directories-d774.md"
+  },
+  {
+   "id": "e5903947-45aa-7ace-2bae-7a8d429adbe3",
+   "title": "Shortcut: Exploring the command history",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Shortcut--Exploring-the-command-history-e590.md"
   },
   {
    "id": "72dde779-ab97-4490-515-ffe36ef9b18",
@@ -74,6 +90,14 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Renaming-directories-2bb6.md"
+  },
+  {
+   "id": "27ac59eb-efe4-84b4-7f57-a5e4c300f7a3",
+   "title": "Shortcut: Prompt cursor placement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Prompt-cursor-placement-27ac.md"
   },
   {
    "id": "b4aba11e-a098-bda3-3a38-883c1ccb323",
@@ -138,14 +162,6 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge--Relative-and-absolute-paths-1b61.md"
-  },
-  {
-   "id": "d40437a4-facc-9af6-1eb3-4d8ca29af81",
-   "title": "The pipe character",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/The-pipe-character-d404.md"
   }
  ],
  "theme": "charcoal",
