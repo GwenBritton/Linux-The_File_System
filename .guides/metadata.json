@@ -3,7 +3,18 @@
   {
    "id": "af10a0bc-a8f1-a9c6-458e-e5b95ea0a7f3",
    "title": "Recap",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: bash .guides/bashtests/workspace_startup | clear",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Recap-af10.md"
