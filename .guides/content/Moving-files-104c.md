@@ -13,7 +13,7 @@ mv css/styles.css ~/workspace
 |||definition
 ### Command: `mv <source> <destination>`
 __Definition:__
-The `mv` command moves each file or directory named by a __source__ argument to a __destination__ directory named by the directory argument.
+The `mv` command moves each file or directory named by a __source__ argument to a __destination__ directory named by the destination directory argument.
 
 |||
 

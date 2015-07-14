@@ -17,6 +17,14 @@
    "content-file": ".guides/content/What-we-ll-learn-b672.md"
   },
   {
+   "id": "7e36e04-4071-9a69-20d8-574bd431cce",
+   "title": "Project approach",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Project-approach-7e36.md"
+  },
+  {
    "id": "104ce54e-dfff-38a7-3f62-17b2ebecedec",
    "title": "Moving files",
    "files": [],
@@ -33,12 +41,60 @@
    "content-file": ".guides/content/Moving-directories-d774.md"
   },
   {
-   "id": "d40437a4-facc-9af6-1eb3-4d8ca29af81",
-   "title": "The pipe character",
+   "id": "72dde779-ab97-4490-515-ffe36ef9b18",
+   "title": "Challenge: Moving files and directories",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-6-d404.md"
+   "content-file": ".guides/content/Challenge--Moving-files-and-directories-72dd.md"
+  },
+  {
+   "id": "d2cb4e5-5c05-19ea-37dd-761717409dfd",
+   "title": "Renaming files",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Renaming-files-d2cb.md"
+  },
+  {
+   "id": "2bb6c20a-2852-f49e-5afb-fd26435b18bf",
+   "title": "Renaming directories",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Renaming-directories-2bb6.md"
+  },
+  {
+   "id": "b4aba11e-a098-bda3-3a38-883c1ccb323",
+   "title": "Challenge: Renaming files and directories",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge--Renaming-files-and-directories-b4ab.md"
+  },
+  {
+   "id": "c0b83b21-a333-222e-70aa-ee73668724a",
+   "title": "Copying files",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Copying-files-c0b8.md"
+  },
+  {
+   "id": "2e014958-a078-d7bd-8d5b-da74bcbb7673",
+   "title": "Copying directories",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Copying-directories-2e01.md"
+  },
+  {
+   "id": "8953dbbd-3efd-7b2a-7960-89225a00d1ba",
+   "title": "Challenge: Copying files and directories",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge--Copying-files-and-directories-8953.md"
   },
   {
    "id": "76618567-9cd3-395d-3f1b-8f6279782902",
@@ -47,6 +103,38 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/More-effective-FS-navigation-7661.md"
+  },
+  {
+   "id": "b21d830c-c828-153d-547-b45a1c1fc0f0",
+   "title": "Relative paths",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Relative-paths-b21d.md"
+  },
+  {
+   "id": "283d3ea-b59e-3ef7-ca19-be104279da48",
+   "title": "Absolute paths",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Absolute-paths-283d.md"
+  },
+  {
+   "id": "1b6162d5-bd0e-2b34-fc5b-5cfc21b5135b",
+   "title": "Challenge: Relative and absolute paths",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge--Relative-and-absolute-paths-1b61.md"
+  },
+  {
+   "id": "d40437a4-facc-9af6-1eb3-4d8ca29af81",
+   "title": "The pipe character",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-pipe-character-d404.md"
   }
  ],
  "theme": "charcoal",

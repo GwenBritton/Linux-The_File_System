@@ -4,8 +4,5 @@
 # Project directories that are created throughout the course
 assets
 css
-js
+test-website
 index.html
-README.md
-.hidden-file-1
-.hidden-file-2

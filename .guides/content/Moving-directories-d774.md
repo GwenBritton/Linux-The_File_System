@@ -13,7 +13,12 @@ mv assets/img .
 |||info
 Notice the `.` character. 
 
-Remember that the dot character represents the current working directory, in this case the `~/workspace` directory. 
+Remember that the dot character represents the current working directory, in this case the `~/workspace` directory.
+
+In this case, the aforementioned command could also have been written as:
+```
+mv assets/img ~/workspace
+```
 |||
 
 In the example above, we are passing the `<source>`, the `assets/img/` directory as a first argument and the second argument, the `<destination>` as the `.` or the _current working directory_ symbol.
@@ -21,8 +26,7 @@ In the example above, we are passing the `<source>`, the `assets/img/` directory
 Remove the empty _assets/_ folder and confirm that the _img/_ directory has been moved:
 
 ```
-codio ~/workspace $ rmdir assets | ls
+codio ~/workspace $ rmdir assets
+codio ~/workspace $ ls
 img index.html styles.css
 ```
-
-Wait, what about the `|` character?
