@@ -70,7 +70,14 @@
   {
    "id": "72dde779-ab97-4490-515-ffe36ef9b18",
    "title": "Challenge: Moving files and directories",
-   "files": [],
+   "files": [
+    {
+     "path": "#terminal: cd ~/workspace",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge--Moving-files-and-directories-72dd.md"
@@ -97,7 +104,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Prompt-cursor-placement-27ac.md"
+   "content-file": ".guides/content/Shortcut--Prompt-cursor-placement-27ac.md"
   },
   {
    "id": "b4aba11e-a098-bda3-3a38-883c1ccb323",
@@ -126,26 +133,36 @@
   {
    "id": "8953dbbd-3efd-7b2a-7960-89225a00d1ba",
    "title": "Challenge: Copying files and directories",
-   "files": [],
+   "files": [
+    {
+     "path": "#terminal: cd ~/workspace",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge--Copying-files-and-directories-8953.md"
   },
   {
    "id": "76618567-9cd3-395d-3f1b-8f6279782902",
-   "title": "More effective FS navigation",
-   "files": [],
+   "title": "More effective File Sytem navigation",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mkdir nested-directories/ nested-directories/nested-level-1 nested-directories/nested-level-1/nested-level-2 nested-directories/nested-level-1/nested-level-2/nested-level-3 | clear",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/More-effective-FS-navigation-7661.md"
-  },
-  {
-   "id": "b21d830c-c828-153d-547-b45a1c1fc0f0",
-   "title": "Relative paths",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Relative-paths-b21d.md"
+   "content-file": ".guides/content/More-effective-File-Sytem-navigation-7661.md"
   },
   {
    "id": "283d3ea-b59e-3ef7-ca19-be104279da48",
@@ -156,9 +173,39 @@
    "content-file": ".guides/content/Absolute-paths-283d.md"
   },
   {
+   "id": "b21d830c-c828-153d-547-b45a1c1fc0f0",
+   "title": "Relative paths",
+   "files": [
+    {
+     "path": "#terminal: cd ~/workspace/nested-directories/nested-level-1/nested-level-2/nested-level-3",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Relative-paths-b21d.md"
+  },
+  {
+   "id": "ddb770a7-4ec1-bbec-5d12-1d6f194df52f",
+   "title": "Wrap up",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Wrap-up-ddb7.md"
+  },
+  {
    "id": "1b6162d5-bd0e-2b34-fc5b-5cfc21b5135b",
    "title": "Challenge: Relative and absolute paths",
-   "files": [],
+   "files": [
+    {
+     "path": "#terminal: cd ~/workspace",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge--Relative-and-absolute-paths-1b61.md"

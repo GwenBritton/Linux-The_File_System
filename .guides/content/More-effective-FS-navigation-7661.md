@@ -10,8 +10,7 @@ The textual representation of this new directory hierarchy would be:
 --- nested-level-1
 ---- nested-level-2
 ----- nested-level-3
------- nested-level-4
-------- nested-level-5
+
 ```
 
 Using your new _tab autocompletion_ knowledge, `cd` into the `nested-level-5` directory: 
