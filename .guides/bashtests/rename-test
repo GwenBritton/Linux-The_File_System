@@ -1,0 +1,97 @@
+#!/bin/bash
+# rename-test
+
+# Vars group
+
+# Points
+totalpoints=1
+pospoints=2
+negpoints=1
+
+
+# Colors
+ERRCOLOR=`tput setaf 1`
+QCOLOR=`tput setaf 3`
+ANSCOLOR=`tput setaf 2`
+OUTCOLOR=`tput setaf 4`
+PROMPTCOLOR=`tput setaf 3`
+CMDCOLOR=`tput setaf 4`
+COLRESET=`tput sgr0`
+
+PROMPT="${COLRESET}codio ~/workspace $ ${COLRESET}"
+
+# Helper funcs
+function addpoints {
+	totalpoints=$(($totalpoints+$pospoints))
+	echo "${PROMPTCOLOR}=>${QCOLOR} Totalpoints: $totalpoints ${COLRESET}"
+}
+function substractpoints {
+	totalpoints=$(($totalpoints-$negpoints))
+	echo "${PROMPTCOLOR}=>${QCOLOR} Totalpoints: $totalpoints ${COLRESET}"
+}
+function changedir {
+	cd "$1"
+}
+function goodbye {
+	echo "${PROMPTCOLOR}=>${QCOLOR} The ${CMDCOLOR}mv${QCOLOR} command can also be used to update files and directories' names.${COLRESET}"
+	addpoints
+	echo "${PROMPTCOLOR}=>${QCOLOR} Keep on going with the CLI course, see you next time!${COLRESET}"
+	exit
+}
+
+function question1 {
+	if [[ -d "test-website/" ]]; then
+		rm -r test-website
+	fi
+	if [[ ! -d "config/" ]]; then
+		mkdir config
+		touch config/.website-config
+	fi
+	if [[ ! -d "test-website/" ]]; then
+		mkdir test-website/
+		mkdir test-website/img
+		touch test-website/index.html
+		touch test-website/img/logo.png
+	fi
+	echo "${PROMPTCOLOR}TASK: ${QCOLOR}Rename the ${OUTCOLOR}test-website/img/logo.png${QCOLOR} PNG image file to be: ${OUTCOLOR}logo-light.png${QCOLOR}${COLRESET}"
+	echo -n "${PROMPT}"
+	read -r qa1
+	if [[ $qa1 =~ (^mv test-website\/img\/logo.png test-website\/img\/logo-light.png) ]]; then
+		mv test-website/img/logo.png test-website/img/logo-light.png
+		echo "${PROMPTCOLOR}=> ${ANSCOLOR}Name updated! The ${OUTCOLOR}test-website/img/logo.png${ANSCOLOR} file was renamed to ${OUTCOLOR}test-website/img/logo-light.png${ANSCOLOR}, lets proceed.${COLRESET}"
+		addpoints
+		question2
+	else
+		echo "${PROMPTCOLOR}ERROR: ${ERRCOLOR}The ${CMDCOLOR}$qa1${COLRESET}${ERRCOLOR} command will not rename the file to the requested file name.${COLRESET}"
+		substractpoints
+		question1
+	fi
+}
+
+function question2 {
+	echo "${PROMPTCOLOR}TASK: ${QCOLOR}Update the ${OUTCOLOR}test-website/img/${QCOLOR} directory name to be: ${OUTCOLOR}'images'${QCOLOR}${COLRESET}"
+	echo -n "${PROMPT}"
+	read -r qa2
+	if [[ $qa2 =~ (^mv test-website\/img\/? test-website\/images\/?) ]]; then
+		mv test-website/img test-website/images
+		echo "${PROMPTCOLOR}=> ${ANSCOLOR}Directory name updated! The ${OUTCOLOR}test-website/img${ANSCOLOR} directory was renamed to ${OUTCOLOR}test-website/images/${ANSCOLOR}${COLRESET}"
+		goodbye
+	else
+		echo "${PROMPTCOLOR}ERROR: ${ERRCOLOR}The ${CMDCOLOR}$qa2${COLRESET}${ERRCOLOR} command will not rename the directory to the requested directory name.${COLRESET}"
+		substractpoints
+		question2
+	fi
+}
+
+
+
+
+
+
+
+
+
+
+
+
+question1
