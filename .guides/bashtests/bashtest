@@ -20,6 +20,9 @@ function runtestfile {
     copy-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
 		$arg
 	  ;;
+    paths-test ) chmod +x "${BASHDIR}/bashtests/${arg}"
+		$arg
+	  ;;
 	*) echo "The $arg argument can't be recognized. Try again."
 	   ;;
 	esac
