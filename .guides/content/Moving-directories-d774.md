@@ -28,5 +28,5 @@ Remove the empty _assets/_ folder and confirm that the _img/_ directory has been
 ```
 codio ~/workspace $ rmdir assets
 codio ~/workspace $ ls
-img index.html styles.css
+img  index.html  styles.css  test-website
 ```

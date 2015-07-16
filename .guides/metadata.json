@@ -72,7 +72,7 @@
    "title": "Challenge: Moving files and directories",
    "files": [
     {
-     "path": "#terminal: cd ~/workspace",
+     "path": "#terminal: cd ~/workspace | clear",
      "panel": 0,
      "action": "open"
     }
@@ -109,7 +109,14 @@
   {
    "id": "b4aba11e-a098-bda3-3a38-883c1ccb323",
    "title": "Challenge: Renaming files and directories",
-   "files": [],
+   "files": [
+    {
+     "path": "#terminal: cd ~/workspace | clear",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge--Renaming-files-and-directories-b4ab.md"

@@ -1,4 +1,4 @@
-## Is it possible to update the name of files and directories?
+## Updating the name of files and directories
 
 Changing the name of files and directories is a very common task regardless of the _operating system_ your computer is running on.
 

@@ -14,5 +14,5 @@ if [[ ! -f "~/workspace/index.html" ]]; then
 fi
 if [[ ! -d "~/workspace/test-website" ]]; then
 	mkdir ~/workspace/test-website ~/workspace/test-website/img
-	touch ~/workspace/test-website/img/logo.png ~/workspace/test-website/index.html
+	touch ~/workspace/test-website/img/logo.png ~/workspace/test-website/index.html ~/workspace/test-website/.website-config
 fi
