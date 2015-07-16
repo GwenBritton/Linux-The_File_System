@@ -1,12 +1,12 @@
 ## There is a slash character before the home directory
 
-On previous units, we learned that the `~` _tilda character_ represents the _home directory_, where every user registered in the computer system is assigned its own directory.
+On previous units, we learned that the `~` _tilda character_ represents the _home directory_, where every registered user in the computer system is assigned its own directory.
 
-Notice the forward slash before the _home directory_:
+Notice the forward slash before the _home directory_ after executing the `pwd` command:
 
 ![pwd-cmd-root](.guides/img/pwd-command-root.png)
 
-Regardless the directory we currently are at, __it is always going to be a root directory sibling or *branch*__. 
+Regardless the directory we are currently on, __the directory is always going to be a root directory *branch*__. 
 
 |||definition
 ### The root directory
@@ -18,7 +18,7 @@ Try navigating and listing the root directory by executing:
 cd /
 ls
 ```
-Did you spot the _home_ directory? Try getting back to the _workspace_ directory.
+Did you spot the _home_ directory? Try getting back to the _workspace_ directory by _changing directories_ into it.
 |||
 
 Remember the _file tree_? Well, its name can be likened to the trunk of a tree as the starting point where all branches originate from.

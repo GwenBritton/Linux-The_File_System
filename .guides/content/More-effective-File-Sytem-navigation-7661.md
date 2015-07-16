@@ -2,6 +2,8 @@
 
 We created a `nested-level-3` directory inside a new `~/workspace/nested-directories` available on your file tree.
 
+__NOTE:__ If the `nested-directories` directory is not visible on the file tree, click on Codio's top bar: __Project > Resync File Tree__.
+
 The textual representation of this new directory hierarchy would be: 
 
 ```
