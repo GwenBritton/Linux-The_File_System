@@ -3,7 +3,7 @@
 
 # Project directories that are created throughout the course
 assets
-img
+# img
 css
 test-website
 styles.css
