@@ -22,9 +22,7 @@ cd /home/workspace/nested-directories/
 
 ### What is more suitable? 
 
-Well, it depends. Take a look at the terminal, we are currently on the `nested-level-3/` directory. 
-
-What if we want to _change directories_ back to the `~/workspace` directory?
+Assuming that we are currently on the `nested-level-3/` directory. What if we want to _change directories_ back to the `~/workspace` directory?
 
 __Using a relative path:__
 

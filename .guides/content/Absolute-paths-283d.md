@@ -6,7 +6,7 @@ Notice the forward slash before the _home directory_ after executing the `pwd` c
 
 ![pwd-cmd-root](.guides/img/pwd-command-root.png)
 
-Regardless the directory we are currently on, __the directory is always going to be a root directory *branch*__. 
+Regardless of the directory we are currently on, __the directory is always going to be a root directory *branch*__. 
 
 |||definition
 ### The root directory

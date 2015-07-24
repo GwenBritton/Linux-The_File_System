@@ -1,26 +1,31 @@
 ## Reproducing files and its contents
 
 |||challenge
-Evaluate your `cp` command understanding by executing this command:
 
-```
-bashtest copy-test
-```
+Evaluate your `cp` command understanding by:
 
-__NOTE:__ Keyboard shortcuts may not work during challenges as they are running on a _bash interactive screen_.
+1. Making a copy of the `test-website/images/logo-light.png` PNG image file on the same directory and assign it the name: `logo-dark.png`
+1. Copying the `test-website/images/` directory content to the `~/workspace/config/` directory without copying the directory itself
 
 |||
 
-|||info
-### Some files are not being displayed on the file tree after the challenge was passed
+By the end of this challenge, your file tree should have the following structure:
 
-Don't worry. If this happens: 
+```
+~/workspace/
+-- config/
+--- .website-config
+-- images/
+--- logo.png
+-- test-website/
+--- images/
+---- logo-light.png
+---- logo-dark.png
+--- index.html
+--- logo.png
+--- test-styles.css
+-- index.html
+-- style.css
 
-1. Make sure that the `ls` command actually lists the files and directories inside your correspondent directory
-2. If the files exist, go to Codio's top bar and do: 
+```
 
-__*Project > Resync File Tree*__
-
-You should be seeing the files on the file tree now.
-
-|||

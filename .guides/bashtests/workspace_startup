@@ -8,6 +8,7 @@ fi
 if [[ ! -d "~/workspace/css" ]]; then
 	mkdir ~/workspace/css
 	touch ~/workspace/css/styles.css
+    echo -e  '/*\n * I have some CSS content!\n */' > styles.css
 fi
 if [[ ! -f "~/workspace/index.html" ]]; then
 	touch ~/workspace/index.html

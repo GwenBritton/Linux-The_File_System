@@ -72,7 +72,7 @@
    "title": "Challenge: Moving files and directories",
    "files": [
     {
-     "path": "#terminal: cd ~/workspace | clear",
+     "path": "#terminal: cd ~/workspace | mkdir test-website/config | clear",
      "panel": 0,
      "action": "open"
     }
@@ -184,12 +184,16 @@
    "title": "Relative paths",
    "files": [
     {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
      "path": "#terminal: cd ~/workspace/nested-directories/nested-level-1/nested-level-2/nested-level-3",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Relative-paths-b21d.md"

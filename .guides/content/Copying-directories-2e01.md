@@ -1,16 +1,14 @@
 ## Directories can be copied and renamed too
 
-Lets copy the `~/workspace/images` directory into the `test-website` directory.
+Lets copy some `~/workspace` directories into the `test-website` directory.
 
-__NOTE:__ The _images/_ directory is not empty so additional options are needed.
-
-Execute the following command from the ~/workspace directory path:
+Execute the following command from the _~/workspace_ directory path:
 
 ```
-cp -R images test-website
+cp -R config test-website
 ```
 
-Can you tell the difference if you execute the following similar command?: 
+Can you tell the difference if you execute the following similar command?:
 
 ```
 cp -R images/. test-website
@@ -20,7 +18,9 @@ cp -R images/. test-website
 
 __On command execution 1__, we input the `cp` command together with the `-R` option which copies directory content __together with the directory itself__ to the specified destination directory.
 
-__On command execution 2__, the `<source>` directory argument includes a special syntax in order to copy the directory content __but not the directory itself__.
+__On command execution 2__, the `<source>` directory argument includes a special syntax in order to copy the directory content __but not the directory itself__. So in this case, only the `~/workspace/images/logo.png` file was copied to the `test-website/` directory. 
+
+__NOTE:__ The `cp -R` option needs to be specified when working with __non-empty directories__.
 
 |||definition
 ### Command:
