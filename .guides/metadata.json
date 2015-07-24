@@ -161,7 +161,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: mkdir nested-directories/ nested-directories/nested-level-1 nested-directories/nested-level-1/nested-level-2 nested-directories/nested-level-1/nested-level-2/nested-level-3 | clear",
+     "path": "#terminal: mkdir -p nested-directories/nested-level-1/nested-level-2/nested-level-3 | clear",
      "panel": 0,
      "action": "open"
     }
