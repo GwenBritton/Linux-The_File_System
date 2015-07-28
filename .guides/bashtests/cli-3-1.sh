@@ -2,6 +2,7 @@
 # touch test
 
 bash_history=~/.bash_history
+BASHDIR=/home/codio/workspace/.guides
 check_file=cli-3-1
 hist_file="$BASHDIR/bashtests/$check_file.txt"
 
@@ -119,7 +120,7 @@ function tell_error
 {
 	echo -e "[Error  ] Task $2. Expected: ${1}. Try again."
 	test_command
-	# return 1
+	return 1
 }
 
 function response 
@@ -144,6 +145,7 @@ function test_command {
 				;;
 		esac
 	else 
+        return 0
 		reset_history
 	fi
 }

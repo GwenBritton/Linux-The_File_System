@@ -2,6 +2,7 @@
 # touch test
 
 bash_history=~/.bash_history
+BASHDIR=/home/codio/workspace/.guides
 check_file=cli-3-3
 hist_file="$BASHDIR/bashtests/$check_file.txt"
 
@@ -94,6 +95,7 @@ function expect_files
 			echo -e "[Correct] Task $COUNT. ${found_arg}"
 		else
 			echo -e "[Missing] Task $COUNT. Expected: ${found_arg}"
+            return 1
 		fi
 	done
 	test_command
@@ -109,6 +111,7 @@ function expect_directories
 			echo -e "[Correct] Task $COUNT. ${found_arg}"
 		else
 			echo -e "[Missing] Task $COUNT. Expected: ${found_arg}"
+            return 1
 		fi
 	done
 	test_command
@@ -119,7 +122,7 @@ function tell_error
 {
 	echo -e "[Error  ] Task $2. Expected: ${1}. Try again."
 	test_command
-	# return 1
+	return 1
 }
 
 function response 
@@ -144,6 +147,7 @@ function test_command {
 				;;
 		esac
 	else 
+        return 0
 		reset_history
 	fi
 }

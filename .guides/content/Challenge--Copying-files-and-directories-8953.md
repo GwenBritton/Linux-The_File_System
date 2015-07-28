@@ -1,13 +1,4 @@
-## Reproducing files and its contents
-
-|||challenge
-
-Evaluate your `cp` command understanding by:
-
-1. Making a copy of the `test-website/images/logo-light.png` PNG image file on the same directory and assign it the name: `logo-dark.png`
-1. Copying the `test-website/images/` directory content to the `~/workspace/config/` directory without copying the directory itself
-
-|||
+{Check It!|assessment}(test-3073042673)
 
 By the end of this challenge, your file tree should have the following structure:
 
@@ -28,4 +19,3 @@ By the end of this challenge, your file tree should have the following structure
 -- style.css
 
 ```
-
