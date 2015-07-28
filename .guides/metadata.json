@@ -17,15 +17,30 @@
    "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Recap-af10.md"
+   "content-file": ".guides/content/Recap-af10.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "b672bf30-78d1-4467-af7f-356332d250ec",
    "title": "What we'll learn",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "bashtest 3",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/What-we-ll-learn-b672.md"
+   "content-file": ".guides/content/What-we-ll-learn-b672.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "7e36e04-4071-9a69-20d8-574bd431cce",
@@ -33,7 +48,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Project-approach-7e36.md"
+   "content-file": ".guides/content/Project-approach-7e36.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "104ce54e-dfff-38a7-3f62-17b2ebecedec",
@@ -41,7 +58,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Moving-files-104c.md"
+   "content-file": ".guides/content/Moving-files-104c.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "21d354ad-b9a4-b3c3-c2dc-13fcb3e4a977",
@@ -49,7 +68,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Shortcut--Tab-autocompletion-21d3.md"
+   "content-file": ".guides/content/Shortcut--Tab-autocompletion-21d3.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "d77488c0-7dc6-54b3-7984-6605559459a9",
@@ -57,7 +78,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Moving-directories-d774.md"
+   "content-file": ".guides/content/Moving-directories-d774.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "e5903947-45aa-7ace-2bae-7a8d429adbe3",
@@ -65,7 +88,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Shortcut--Exploring-the-command-history-e590.md"
+   "content-file": ".guides/content/Shortcut--Exploring-the-command-history-e590.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "72dde779-ab97-4490-515-ffe36ef9b18",
@@ -80,7 +105,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge--Moving-files-and-directories-72dd.md"
+   "content-file": ".guides/content/Challenge--Moving-files-and-directories-72dd.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "d2cb4e5-5c05-19ea-37dd-761717409dfd",
@@ -88,7 +115,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Renaming-files-d2cb.md"
+   "content-file": ".guides/content/Renaming-files-d2cb.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "2bb6c20a-2852-f49e-5afb-fd26435b18bf",
@@ -96,7 +125,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Renaming-directories-2bb6.md"
+   "content-file": ".guides/content/Renaming-directories-2bb6.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "27ac59eb-efe4-84b4-7f57-a5e4c300f7a3",
@@ -104,7 +135,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Shortcut--Prompt-cursor-placement-27ac.md"
+   "content-file": ".guides/content/Shortcut--Prompt-cursor-placement-27ac.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "b4aba11e-a098-bda3-3a38-883c1ccb323",
@@ -119,7 +152,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge--Renaming-files-and-directories-b4ab.md"
+   "content-file": ".guides/content/Challenge--Renaming-files-and-directories-b4ab.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "c0b83b21-a333-222e-70aa-ee73668724a",
@@ -127,7 +162,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Copying-files-c0b8.md"
+   "content-file": ".guides/content/Copying-files-c0b8.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "2e014958-a078-d7bd-8d5b-da74bcbb7673",
@@ -135,7 +172,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Copying-directories-2e01.md"
+   "content-file": ".guides/content/Copying-directories-2e01.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "8953dbbd-3efd-7b2a-7960-89225a00d1ba",
@@ -150,7 +189,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge--Copying-files-and-directories-8953.md"
+   "content-file": ".guides/content/Challenge--Copying-files-and-directories-8953.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "76618567-9cd3-395d-3f1b-8f6279782902",
@@ -169,7 +210,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/More-effective-File-Sytem-navigation-7661.md"
+   "content-file": ".guides/content/More-effective-File-Sytem-navigation-7661.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "283d3ea-b59e-3ef7-ca19-be104279da48",
@@ -177,7 +220,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Absolute-paths-283d.md"
+   "content-file": ".guides/content/Absolute-paths-283d.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "b21d830c-c828-153d-547-b45a1c1fc0f0",
@@ -196,7 +241,9 @@
    "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Relative-paths-b21d.md"
+   "content-file": ".guides/content/Relative-paths-b21d.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "ddb770a7-4ec1-bbec-5d12-1d6f194df52f",
@@ -204,7 +251,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Wrap-up-ddb7.md"
+   "content-file": ".guides/content/Wrap-up-ddb7.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "1b6162d5-bd0e-2b34-fc5b-5cfc21b5135b",
@@ -219,7 +268,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge--Relative-and-absolute-paths-1b61.md"
+   "content-file": ".guides/content/Challenge--Relative-and-absolute-paths-1b61.md",
+   "chapter": false,
+   "reset": []
   }
  ],
  "theme": "charcoal",
