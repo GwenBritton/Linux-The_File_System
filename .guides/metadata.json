@@ -56,10 +56,11 @@
    "id": "104ce54e-dfff-38a7-3f62-17b2ebecedec",
    "title": "Moving files",
    "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Moving-files-104c.md",
-   "chapter": false,
+   "chapter": true,
    "reset": []
   },
   {
@@ -113,10 +114,11 @@
    "id": "d2cb4e5-5c05-19ea-37dd-761717409dfd",
    "title": "Renaming files",
    "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Renaming-files-d2cb.md",
-   "chapter": false,
+   "chapter": true,
    "reset": []
   },
   {
@@ -160,10 +162,11 @@
    "id": "c0b83b21-a333-222e-70aa-ee73668724a",
    "title": "Copying files",
    "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Copying-files-c0b8.md",
-   "chapter": false,
+   "chapter": true,
    "reset": []
   },
   {
@@ -211,7 +214,7 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/More-effective-File-Sytem-navigation-7661.md",
-   "chapter": false,
+   "chapter": true,
    "reset": []
   },
   {
