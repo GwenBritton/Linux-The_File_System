@@ -1,6 +1,6 @@
 ## Complete your command arguments faster
 
-As you get more familiar with your project file hierarchy, the _tab autocompletion_ keyboard shortcut shows pretty useful when adding command arguments.
+As you get more familiar with your project file hierarchy, the _tab autocompletion_ keyboard shortcut speeds up adding command arguments.
 
 ### Using the tab autocompletion shortcut:
 
