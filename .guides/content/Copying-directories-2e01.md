@@ -16,7 +16,7 @@ cp -R images/. test-website
 
 ### Understanding the difference
 
-__On command execution 1__, we input the `cp` command together with the `-R` option which copies directory content __together with the directory itself__ to the specified destination directory.
+__On command execution 1__, we input the `cp` command together with the `-R` option which copies directory content __together with the directory itself__ to the specified destination directory. `-R` stands for _recursive_ which goes through each one of the files or directories inside and copies them until its finished.
 
 __On command execution 2__, the `<source>` directory argument includes a special syntax in order to copy the directory content __but not the directory itself__. So in this case, only the `~/workspace/images/logo.png` file was copied to the `test-website/` directory. 
 
