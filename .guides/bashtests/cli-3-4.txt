@@ -1,0 +1,15 @@
+cli-3-4
+cd ~/workspace/nested-directories/nested-level-1
+cli-3-4
+cli-3-4
+cli-3-4
+cli-3-4
+cli-3-4
+cli-3-4
+cli-3-4
+git a
+cli-3-4
+cli-3-4
+cd /home/codio/workspace/nested-directories/nested-level-1/cd ~/workspace
+cd /home/codio/workspace/nested-directories/nested-level-1/
+cli-3-4
