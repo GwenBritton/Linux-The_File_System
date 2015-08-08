@@ -9,7 +9,7 @@ function init_workspace {
 	touch ${WORKSPACE}assets/img/logo.png
 	mkdir ${WORKSPACE}css
 	touch ${WORKSPACE}css/styles.css
-  echo -e  '/*\n * I have some CSS content!\n */' > styles.css
+    echo -e  '/*\n * I have some CSS content!\n */' > css/styles.css
 	touch ${WORKSPACE}index.html
 	mkdir ${WORKSPACE}test-website ${WORKSPACE}test-website/img
 	touch ${WORKSPACE}test-website/img/logo.png ${WORKSPACE}test-website/index.html ${WORKSPACE}test-website/.website-config
