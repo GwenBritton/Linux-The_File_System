@@ -1,9 +1,0 @@
-cli-3-3
-cli-3-3
-cd ~/workspace
-cli-3-3
-cli-3-3
-mkdir config
-cp test-website/images/. config/
-cp -R test-website/images/. config/
-cli-3-3

@@ -13,6 +13,7 @@ In the last unit, our `~/workspace` directory was left with the following struct
 --- img
 ---- logo.png
 --- index.html
+--- .website-config
 index.html
 ```
 

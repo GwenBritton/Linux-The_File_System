@@ -9,7 +9,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: bash .guides/bashtests/workspace_startup | clear",
+     "path": "#terminal: workspace-reset.sh workspace",
      "panel": 0,
      "action": "open"
     }
