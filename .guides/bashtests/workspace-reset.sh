@@ -28,6 +28,7 @@ function reset_workspace {
     rm -r ${WORKSPACE}config
     rm ${WORKSPACE}style.css
     rm ${WORKSPACE}styles.css
+    > ~/.bash_history
 	echo "Reseting project files and directories"
 	sleep 2
 	init_workspace
