@@ -95,7 +95,7 @@
   },
   {
    "id": "72dde779-ab97-4490-515-ffe36ef9b18",
-   "title": "Challenge: Moving files and directories",
+   "title": "Challenge",
    "files": [
     {
      "path": "#terminal: cd ~/workspace | mkdir test-website/config | clear",
@@ -106,7 +106,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge--Moving-files-and-directories-72dd.md",
+   "content-file": ".guides/content/Challenge-72dd.md",
    "chapter": false,
    "reset": []
   },
@@ -143,7 +143,7 @@
   },
   {
    "id": "b4aba11e-a098-bda3-3a38-883c1ccb323",
-   "title": "Challenge: Renaming files and directories",
+   "title": "Challenge",
    "files": [
     {
      "path": "#terminal: cd ~/workspace | clear",
@@ -154,7 +154,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge--Renaming-files-and-directories-b4ab.md",
+   "content-file": ".guides/content/Challenge-b4ab.md",
    "chapter": false,
    "reset": []
   },
@@ -181,7 +181,7 @@
   },
   {
    "id": "8953dbbd-3efd-7b2a-7960-89225a00d1ba",
-   "title": "Challenge: Copying files and directories",
+   "title": "Challenge",
    "files": [
     {
      "path": "#terminal: cd ~/workspace",
@@ -192,7 +192,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge--Copying-files-and-directories-8953.md",
+   "content-file": ".guides/content/Challenge-8953.md",
    "chapter": false,
    "reset": []
   },
@@ -260,7 +260,7 @@
   },
   {
    "id": "1b6162d5-bd0e-2b34-fc5b-5cfc21b5135b",
-   "title": "Challenge: Relative and absolute paths",
+   "title": "Challenge",
    "files": [
     {
      "path": "#terminal: cd ~/workspace",

@@ -31,7 +31,6 @@ function test_command {
 				;;
 		esac
 	else 
-        echo "Well done!"
 echo "Well done!"
 return 0
 	fi
