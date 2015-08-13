@@ -271,7 +271,17 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge--Relative-and-absolute-paths-1b61.md",
+   "content-file": ".guides/content/Challenge-1b61.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "2e06a0b7-254b-b471-78d0-fb0414f4fde7",
+   "title": "End of unit",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-21-2e06.md",
    "chapter": false,
    "reset": []
   }
