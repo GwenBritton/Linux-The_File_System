@@ -277,15 +277,16 @@
   },
   {
    "id": "2e06a0b7-254b-b471-78d0-fb0414f4fde7",
-   "title": "End of unit",
+   "title": "That's all folks",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-21-2e06.md",
+   "content-file": ".guides/content/End-of-unit-2e06.md",
    "chapter": false,
    "reset": []
   }
  ],
  "theme": "charcoal",
- "scripts": []
+ "scripts": [],
+ "lexikonTopic": ""
 }
