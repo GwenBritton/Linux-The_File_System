@@ -9,7 +9,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: workspace-reset.sh workspace",
+     "path": "#terminal: bashtest 3 | clear",
      "panel": 0,
      "action": "open"
     }
@@ -24,17 +24,7 @@
   {
    "id": "b672bf30-78d1-4467-af7f-356332d250ec",
    "title": "What we'll learn",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "bashtest 3",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
+   "files": [],
    "layout": "",
    "path": [],
    "type": "markdown",
@@ -281,7 +271,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/End-of-unit-2e06.md",
+   "content-file": ".guides/content/That-s-all-folks-2e06.md",
    "chapter": false,
    "reset": []
   }

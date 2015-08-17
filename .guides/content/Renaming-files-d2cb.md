@@ -4,7 +4,7 @@ Changing the name of files and directories is a very common task regardless of t
 
 The typical workflow for this procedure would be: 
 
-1. Right click on the file or directory you want the name updated
+1. Right click on the file or directory you want to rename
 2. Click on the 'rename' option or similar
 3. Type the desired name 
 4. Press the return key

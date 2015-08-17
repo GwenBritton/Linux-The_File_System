@@ -1,6 +1,6 @@
 ## There is a slash character before the home directory
 
-On previous units, we learned that the `~` _tilda character_ represents the _home directory_, where every registered user in the computer system is assigned its own directory.
+On previous units, we learned that the `~` _tilde character_ represents the _home directory_, where every registered user in the computer system is assigned its own directory.
 
 Notice the forward slash before the _home directory_ after executing the `pwd` command:
 

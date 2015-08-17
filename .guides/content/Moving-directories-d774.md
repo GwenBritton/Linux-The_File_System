@@ -21,7 +21,7 @@ mv assets/img ~/workspace
 ```
 |||
 
-In the example above, we are passing the `<source>`, the `assets/img/` directory as a first argument and the second argument, the `<destination>` as the `.` or the _current working directory_ symbol.
+In the example above, we are passing the `<source>` (the `assets/img/` directory) as the first argument and the second argument, (the `<destination>`) as the `.` or the _current working directory_ symbol.
 
 Remove the empty _assets/_ folder and confirm that the _img/_ directory has been moved to the `~/workspace` directory:
 

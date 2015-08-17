@@ -19,7 +19,7 @@ __Definition:__ Update the name of existing files and directories.
 
 |||
 
-### Isn't the `mv` command moves files and directories from one place to another?
+### Isn’t the `mv` command moving files and directories from one place to another?
 
 Yes, it does, however this _bash_ command has 2 forms:
 

@@ -1,6 +1,6 @@
 ## Directories can be copied and renamed too
 
-Lets copy some `~/workspace` directories into the `test-website` directory.
+Let's copy some `~/workspace` directories into the `test-website` directory.
 
 Execute the following command from the _~/workspace_ directory path:
 

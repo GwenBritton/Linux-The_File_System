@@ -1,6 +1,6 @@
 ## What if I'm at a deeper directory level?
 
-We created a `nested-level-3` directory inside a new `~/workspace/nested-directories` available on your file tree.
+We created a `nested-level-3` directory inside a new `~/workspace/nested-directories` directory available on your file tree.
 
 The textual representation of this new directory hierarchy would be: 
 
@@ -12,9 +12,7 @@ The textual representation of this new directory hierarchy would be:
 ----- nested-level-3
 ```
 
-Using your new _tab autocompletion_ knowledge, `cd` into the `nested-level-3` directory: 
-
-![nested-directories](.guides/img/cd-nested-dirs.gif)
+Using your new _tab autocompletion_ knowledge, `cd` into the `nested-level-3` directory.
 
 Now that you are on the _nested-level-3_ directory execute the `pwd` command to get an __absolute__ path from the __root directory__: 
 

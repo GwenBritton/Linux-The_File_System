@@ -4,7 +4,7 @@
 __A relative path__ is related to the current working directory.
 |||
 
-Lets illustrate absolute and relative paths differences with an example. 
+Let's illustrate absolute and relative paths differences with an example.
 
 If you'd like to enter the `nested-directories` directory while currently being in the `~/workspace` you may execute: 
 
@@ -41,6 +41,6 @@ cd /home/codio/workspace/
 -- or because the _worskpace_ directory lives inside the home directory:
 
 ```
-# Using the ~ tilda character that represents the /home/codio/ path
+# Using the ~ tilde character that represents the /home/codio/ path
 cd ~/workspace
 ```

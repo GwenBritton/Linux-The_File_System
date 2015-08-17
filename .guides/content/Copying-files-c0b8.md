@@ -18,7 +18,7 @@ Make sure you are on the `~/workspace` directory and execute:
 cp style.css test-website/test-styles.css
 ```
 
-Not only the `cp` command copied the `~/workspace/style.css` file together with its content, but also changed its name:
+Not only did the `cp` command copy the `~/workspace/style.css` file together with its content, but also changed its name:
 
 __style.css file content:__
 
