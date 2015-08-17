@@ -55,11 +55,11 @@
   },
   {
    "id": "21d354ad-b9a4-b3c3-c2dc-13fcb3e4a977",
-   "title": "Shortcut: Tab autocompletion",
+   "title": "Shortcut",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Shortcut--Tab-autocompletion-21d3.md",
+   "content-file": ".guides/content/Shortcut-21d3.md",
    "chapter": false,
    "reset": []
   },
@@ -75,11 +75,11 @@
   },
   {
    "id": "e5903947-45aa-7ace-2bae-7a8d429adbe3",
-   "title": "Shortcut: Exploring the command history",
+   "title": "Shortcut",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Shortcut--Exploring-the-command-history-e590.md",
+   "content-file": ".guides/content/Shortcut-e590.md",
    "chapter": false,
    "reset": []
   },
@@ -123,7 +123,7 @@
   },
   {
    "id": "27ac59eb-efe4-84b4-7f57-a5e4c300f7a3",
-   "title": "Shortcut: Prompt cursor placement",
+   "title": "Shortcut",
    "files": [],
    "path": [],
    "type": "markdown",
