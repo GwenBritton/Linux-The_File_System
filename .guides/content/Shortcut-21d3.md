@@ -4,9 +4,7 @@ As you get more familiar with your project file hierarchy, the _tab autocompleti
 
 ### Using the tab autocompletion shortcut:
 
-Whenever you need to access directories or need to type file names, hit the keyboard's _tab key_ for the terminal to autocomplete your request.
-
-![tab-autocompletion](.guides/img/shortcut-tab.png)
+Whenever you need to access directories or need to type file names, hit the keyboard's _tab key_ for the terminal to autocomplete your request:
 
 ![tab-autocompletion](.guides/img/shortcut-tab.gif)
 
