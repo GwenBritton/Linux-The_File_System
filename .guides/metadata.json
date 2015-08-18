@@ -127,7 +127,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Shortcut--Prompt-cursor-placement-27ac.md",
+   "content-file": ".guides/content/Shortcut-27ac.md",
    "chapter": false,
    "reset": []
   },
@@ -174,12 +174,16 @@
    "title": "Challenge",
    "files": [
     {
-     "path": "#terminal: cd ~/workspace",
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: workspace-reset.sh ch-3-2",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-8953.md",
@@ -253,12 +257,16 @@
    "title": "Challenge",
    "files": [
     {
-     "path": "#terminal: cd ~/workspace",
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: workspace-reset.sh ch-4-4",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-1b61.md",

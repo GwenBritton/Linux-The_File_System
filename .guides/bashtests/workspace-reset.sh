@@ -47,6 +47,19 @@ case $arg in
 		;;
 	workspace ) reset_workspace
 		;;
+    ch-3-2 )
+        rm -r test-website/img
+        mkdir test-website/images
+        touch test-website/images/logo-light.png
+        if [[ ! -d "~/workspace/config" ]]; then
+            mkdir ~/workspace/config
+        fi
+        ;;
+    ch-4-4 )
+        if [[ ! -d "~/workspace/config" ]]; then
+            mkdir ~/workspace/config
+        fi
+        ;;
 	* ) echo "'$arg' doesn't match any available arguments" 
 		;;
 esac
