@@ -10,7 +10,7 @@ Yes it is!
 
 Remember our _test-website_ folder? It still needs a _CSS stylesheet_ file for adding some styles to it.
 
-Lets perform a slightly more complex command in order to demonstrate _bash's_ `cp` command power.
+Let's perform a slightly more complex command in order to demonstrate _bash's_ `cp` command power.
 
 Make sure you are on the `~/workspace` directory and execute:
 

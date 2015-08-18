@@ -2,7 +2,7 @@
 
 Just as the `mv` command allows us to update existing file names, we can update existing directory names as well.
 
-Lets update the `img` folder to be: _images_
+Let's update the `img` folder to be: _images_
 
 Make sure you are on the _~/workspace_ folder and execute:
 

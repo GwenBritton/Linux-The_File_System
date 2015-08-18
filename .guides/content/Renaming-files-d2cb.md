@@ -19,7 +19,7 @@ mv <existing_file_or_directory_name> <desired_name>
 
 Try it out on the terminal.
 
-Lets update the name of the `styles.css` file to `style.css`. Make sure you are on the _~/workspace_ directory:
+Let's update the name of the `styles.css` file to `style.css`. Make sure you are on the _~/workspace_ directory:
 
 ```
 mv styles.css style.css
