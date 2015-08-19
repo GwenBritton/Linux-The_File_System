@@ -23,6 +23,6 @@ By the end of this challenge, your file tree should have the following structure
 |||guidance
 ### Correct answers:
 1. `cp test-website/images/logo-light.png test-website/images/logo-dark.png`
-2. `cp -R test-website/images ~/workspace/config`
+2. `cp -R test-website/images/. ~/workspace/config`
 
 |||

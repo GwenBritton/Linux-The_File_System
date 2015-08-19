@@ -22,11 +22,9 @@ function test_command {
 		case $COUNT in
 			1 )
 				expect_directory "/home/codio/workspace/test-website/images" "rename ~/workspace/test-website/img to images/"
-				# expect_directory "$BASHDIR/workspace-cli3/test-website/images" "rename ~/workspace-cli3/test-website/test-website/img to images/"
 				;;
 			2 )
 				expect_file "/home/codio/workspace/test-website/images/logo-light.png" "rename ~/workspace/test-website/images/logo.png to logo-light.png"
-				# expect_file "$BASHDIR/workspace-cli3/test-website/images/logo-light.png" "rename ~/workspace-cli3/test-website/images/logo.png to logo-light.png"
 				;;
 		esac
 	else 

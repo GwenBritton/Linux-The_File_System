@@ -15,7 +15,7 @@ Notice the `.` character.
 
 Remember that the dot character represents the current working directory, in this case the `~/workspace` directory.
 
-In this case, the aforementioned command could also have been written as:
+The aforementioned command could also have been written as:
 ```
 mv assets/img ~/workspace
 ```

@@ -22,11 +22,9 @@ function test_command {
 		case $COUNT in
 			1 )
 				expect_directory "/home/codio/workspace/config" "move ~/workspace/test-website/config to ~/workspace"
-				# expect_directory "$BASHDIR/workspace-cli3/config" "move ~/workspace-cli3/test-website/config to ~/workspace-cli3"
 				;;
 			2 )
 				expect_file "/home/codio/workspace/config/.website-config" "move ~/workspace/test-website/.website-config to ~/workspace/config/"
-				# expect_file "$BASHDIR/workspace-cli3/config/.website-config" "move ~/workspace-cli3/test-website/.website-config to ~/workspace-cli3/config/"
 				;;
 		esac
 	else 

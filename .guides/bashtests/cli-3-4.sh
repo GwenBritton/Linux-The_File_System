@@ -27,7 +27,7 @@ function test_command {
 				expect_commands "cd into the nested-level-3/ directory by using a relative path" "cd nested-level-2/nested-level-3"
 				;;
 			3 )
-				expect_directory "/home/codio/workspace/nested-directories/nested-level-1/config"
+				expect_directory "/home/codio/workspace/nested-directories/nested-level-1/config" "move the entire ~/workspace/config/ directory to the nested-level-1/ directory"
 				;;
 		esac
 	else 

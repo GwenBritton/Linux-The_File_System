@@ -47,10 +47,15 @@ case $arg in
 		;;
 	workspace ) reset_workspace
 		;;
+    ch-1-4 )
+        if [[ ! -d "~/workspace/test-website/config" ]]; then
+            mkdir ~/workspace/test-website/config
+        fi
+        ;;
     ch-3-2 )
-        rm -r test-website/img
-        mkdir test-website/images
-        touch test-website/images/logo-light.png
+        rm -r ~/workspace/test-website/img
+        mkdir ~/workspace/test-website/images
+        touch ~/workspace/test-website/images/logo-light.png
         if [[ ! -d "~/workspace/config" ]]; then
             mkdir ~/workspace/config
         fi
@@ -58,6 +63,9 @@ case $arg in
     ch-4-4 )
         if [[ ! -d "~/workspace/config" ]]; then
             mkdir ~/workspace/config
+        fi
+        if [[ ! -d "~/workspace/nested-directories" ]]; then
+            mkdir -p ~/workspace/nested-directories/nested-level-1/nested-level-2/nested-level-3
         fi
         ;;
 	* ) echo "'$arg' doesn't match any available arguments" 

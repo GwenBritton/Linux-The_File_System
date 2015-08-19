@@ -88,7 +88,7 @@
    "title": "Challenge",
    "files": [
     {
-     "path": "#terminal: cd ~/workspace | mkdir test-website/config | clear",
+     "path": "#terminal: workspace-reset.sh ch-1-4 | clear",
      "panel": 0,
      "action": "open"
     }
