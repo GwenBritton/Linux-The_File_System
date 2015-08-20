@@ -1,3 +1,1 @@
 cli-3-3
-rm test-website/images/logo-dark.png 
-cli-3-3

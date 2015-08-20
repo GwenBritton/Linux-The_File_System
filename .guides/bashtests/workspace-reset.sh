@@ -53,9 +53,13 @@ case $arg in
         fi
         ;;
     ch-3-2 )
-        rm -r ~/workspace/test-website/img
-        mkdir ~/workspace/test-website/images
-        touch ~/workspace/test-website/images/logo-light.png
+        if [[ -d "~/workspace/test-website/img" ]]; then
+            rm -r ~/workspace/test-website/img
+        fi
+        if [[ ! -d "~/workspace/test-website/images" ]]; then
+            mkdir ~/workspace/test-website/images
+            touch ~/workspace/test-website/images/logo-light.png
+        fi
         if [[ ! -d "~/workspace/config" ]]; then
             mkdir ~/workspace/config
         fi

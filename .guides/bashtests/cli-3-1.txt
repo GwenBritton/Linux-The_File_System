@@ -1,6 +1,1 @@
 cli-3-1
-mv test-website/config/ .
-cli-3-1
-mv test-website/.website-config ./config/
-mv test-website/.website-config /home/codio/workspace/config/
-cli-3-1

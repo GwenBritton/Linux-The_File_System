@@ -230,7 +230,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: cd ~/workspace/nested-directories/nested-level-1/nested-level-2/nested-level-3",
+     "path": "#terminal: ",
      "panel": 0,
      "action": "open"
     }

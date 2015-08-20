@@ -1,3 +1,1 @@
 cli-3-2
-mv test-website/images/logo.png test-website/images/logo-light.png
-cli-3-2
