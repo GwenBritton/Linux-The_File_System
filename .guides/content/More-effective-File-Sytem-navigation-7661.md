@@ -20,4 +20,4 @@ Now that you are on the _nested-level-3_ directory execute the `pwd` command to 
 /home/codio/workspace/nested-directories/nested-level-1/nested-level-2/nested-level-3
 ```
 
-Wow! That's a long path! Lets understand what an absolute path and the root directory are.
+Wow! That's a long path! Let's understand what an absolute path and the root directory are.

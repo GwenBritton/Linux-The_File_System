@@ -51,6 +51,7 @@ case $arg in
         if [[ ! -d "~/workspace/test-website/config" ]]; then
             mkdir ~/workspace/test-website/config
         fi
+        clear
         ;;
     ch-3-2 )
         if [[ -d "~/workspace/test-website/img" ]]; then
@@ -63,6 +64,7 @@ case $arg in
         if [[ ! -d "~/workspace/config" ]]; then
             mkdir ~/workspace/config
         fi
+        clear
         ;;
     ch-4-4 )
         if [[ ! -d "~/workspace/config" ]]; then
@@ -71,6 +73,7 @@ case $arg in
         if [[ ! -d "~/workspace/nested-directories" ]]; then
             mkdir -p ~/workspace/nested-directories/nested-level-1/nested-level-2/nested-level-3
         fi
+        clear
         ;;
 	* ) echo "'$arg' doesn't match any available arguments" 
 		;;
