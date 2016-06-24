@@ -9,7 +9,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: bashtest 3 | clear",
+     "path": "#terminal: clear",
      "panel": 0,
      "action": "open"
     }
