@@ -1,0 +1,66 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-2377045931",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Moving files and directories",
+   "instructions": "A new `test-website/config/` directory has been created.\n\nEvaluate your `mv` command understanding for moving files and directories by:\n\n1. Moving the `test-website/config/` directory to the `~/workspace` directory\n1. Moving the `test-website/.website-config` dotfile to the `~/workspace/config/` directory.\n\n__TIP:__ Optimize your time by performing the aforementioned instructions directly from your `~/workspace` directory.\n\n---\nOnce you have completed these tasks press the _Check It_ button to have your solution assessed.",
+   "command": "/home/codio/workspace/.guides/bashtests/cli-3-1.sh",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3073042673",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Copying files and directories",
+   "instructions": "Evaluate your `cp` command understanding by:\n\n1. Making a copy of the `test-website/images/logo-light.png` PNG image file on the same directory and assign it the name: `logo-dark.png`\n1. Copying the `test-website/images/` directory content to the `~/workspace/config/` directory without copying the directory itself\n\n---\nOnce you have completed these tasks press the _Check It_ button to have your solution assessed.",
+   "command": "/home/codio/workspace/.guides/bashtests/cli-3-3.sh",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3248690237",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Renaming files and directories",
+   "instructions": "Evaluate your `mv` command understanding for renaming files and directories by:\n\n1. Updating the `test-website/img/` directory name to be: `images`\n1. Renaming the `test-website/images/logo.png` PNG image file to be: `logo-light.png`\n\n---\nOnce you have completed these tasks press the _Check It_ button to have your solution assessed.",
+   "command": "/home/codio/workspace/.guides/bashtests/cli-3-2.sh",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3274192243",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Relative and absolute paths",
+   "instructions": "The terminal window wants to evaluate your current _bash_ knowledge by using the `~/workspace/nested-directories` folder:\n\n1. `cd` into the `nested-directories/nested-level-1/` directory by using an _absolute path_\n1. `cd` into the `nested-level-3/` directory by using a _relative path_\n1. Move the entire `~/workspace/config/` directory to the `nested-level-1/` directory\n\n---\nOnce you have completed these tasks press the _Check It_ button to have your solution assessed.",
+   "command": "/home/codio/workspace/.guides/bashtests/cli-3-4.sh",
+   "points": 1
+  }
+ }
+]

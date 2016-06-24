@@ -36,7 +36,6 @@ function reset_workspace {
 
 function reset_challenges {
 	find "${WORKSPACE}.guides/bashtests/" -path "*.txt" -delete
-	# find "${WORKSPACE}/bashtests/" -path "*.txt" -delete
 	echo "Project challenges files have been reseted."
 	sleep 2
 	clear
@@ -49,7 +48,8 @@ case $arg in
 		;;
     ch-1-4 )
         if [[ ! -d "~/workspace/test-website/config" ]]; then
-            mkdir ~/workspace/test-website/config
+            mkdir -p ~/workspace/test-website/config
+            touch test-website/.website-config
         fi
         clear
         ;;
@@ -58,7 +58,7 @@ case $arg in
             rm -r ~/workspace/test-website/img
         fi
         if [[ ! -d "~/workspace/test-website/images" ]]; then
-            mkdir ~/workspace/test-website/images
+            mkdir -p ~/workspace/test-website/images
             touch ~/workspace/test-website/images/logo-light.png
         fi
         if [[ ! -d "~/workspace/config" ]]; then
