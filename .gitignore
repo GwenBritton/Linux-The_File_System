@@ -5,12 +5,6 @@
 .settings
 
 # Project directories that are created throughout the course
-assets
-# img
-css
-test-website
-./styles.css
-index.html
 nested-directories
 images
 config
