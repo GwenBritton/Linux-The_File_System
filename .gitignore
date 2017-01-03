@@ -9,9 +9,8 @@ assets
 # img
 css
 test-website
-styles.css
+./styles.css
 index.html
 nested-directories
-style.css
 images
 config
