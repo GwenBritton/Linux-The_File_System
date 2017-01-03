@@ -9,7 +9,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear",
+     "path": "#terminal: . .guides/bashtests/init.sh ; clear",
      "panel": 0,
      "action": "open"
     }
@@ -88,7 +88,7 @@
    "title": "Challenge",
    "files": [
     {
-     "path": "#terminal: workspace-reset.sh ch-1-4 | clear",
+     "path": "#terminal: . .guides/bashtests/init.sh ; workspace-reset.sh ch-1-4 ; clear",
      "panel": 0,
      "action": "open"
     }
@@ -136,7 +136,7 @@
    "title": "Challenge",
    "files": [
     {
-     "path": "#terminal: cd ~/workspace | clear",
+     "path": "#terminal: . .guides/bashtests/init.sh ; clear",
      "panel": 0,
      "action": "open"
     }
@@ -178,7 +178,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: workspace-reset.sh ch-3-2",
+     "path": "#terminal: . .guides/bashtests/init.sh ; workspace-reset.sh ch-3-2",
      "panel": 0,
      "action": "open"
     }
@@ -199,7 +199,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: mkdir -p nested-directories/nested-level-1/nested-level-2/nested-level-3 | clear",
+     "path": "#terminal: mkdir -p nested-directories/nested-level-1/nested-level-2/nested-level-3 ; . .guides/bashtests/init.sh ; clear",
      "panel": 0,
      "action": "open"
     }
@@ -230,7 +230,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: ",
+     "path": "#terminal: . .guides/bashtests/init.sh ; clear",
      "panel": 0,
      "action": "open"
     }
@@ -261,7 +261,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: workspace-reset.sh ch-4-4",
+     "path": "#terminal: . .guides/bashtests/init.sh ; workspace-reset.sh ch-4-4 | clear",
      "panel": 0,
      "action": "open"
     }
