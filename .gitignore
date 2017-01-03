@@ -2,9 +2,10 @@
 .guides/bashtests/*.txt
 
 # Settings file
-.settings
+./.settings
 
 # Project directories that are created throughout the course
-nested-directories
-images
-config
+./nested-directories
+./img
+./config
+./test-website/config
