@@ -11,7 +11,7 @@ The typical workflow for this procedure would be:
 
 ### More efficient name updates using the CLI
 
-The CLI allows us to change files and directories' names just by inputting the following command:
+The CLI allows us to change files and directories names just by inputting the following command:
 
 ```
 mv <existing_file_or_directory_name> <desired_name>

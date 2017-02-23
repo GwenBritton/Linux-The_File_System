@@ -1,14 +1,13 @@
+.guides/assessmentsAnswers.json
+.guides/bashtests/*.txt
+
 # Settings file
 .settings
 
 # Project directories that are created throughout the course
-assets
-# img
-css
-test-website
-styles.css
-index.html
-nested-directories
-style.css
-images
-config
+./nested-directories
+./img
+./config
+./test-website/config
+./style.css
+./images

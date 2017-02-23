@@ -20,7 +20,7 @@ index.html
 In this unit we are going to focus on moving and copying files and directories to our _test-website_ directory and cover some CLI productivity tricks.
 
 |||info
-### It's important to get familiar with files and directories' levels.
+### It's important to get familiar with files and directories levels.
 
 As you become a more advanced developer you'll be reading software documentation that constantly includes __file hierarchies__ represented as text lists.
 
