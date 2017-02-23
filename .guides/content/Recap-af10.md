@@ -1,6 +1,6 @@
 # We extended the known commands
 
-In the previous unit, our command knowledge was updgraded by extending some of the commands we already use with options and arguments such as: 
+In the previous unit, our command knowledge was upgraded by extending some of the commands we already use with options and arguments such as: 
 
 - Making multiple directories
 - Creating nested directories

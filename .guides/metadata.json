@@ -307,5 +307,6 @@
  ],
  "theme": "charcoal",
  "scripts": [],
- "lexikonTopic": ""
+ "lexikonTopic": "",
+ "suppressPageNumbering": false
 }
